@@ -1,0 +1,71 @@
+#DONE Event: (1) // klasa przechowyuj¹ca wydarzenia
+	~metody dostêpowe do zmiennych
+	Wypisz()
+	
+	tytul
+	start (data i godzina) 
+	koniec (data i godzina)
+	notatka (opis)
+	miejsce
+	~przypomnienie
+	~kontakt
+	
+	kolor (wybierany z listy)
+
+#DONE Alarm: (2)
+	czas
+	dzwiek
+	
+Graficzny kalendarz: (3)
+	?
+	Zapewne coœ w stylu "klikamy na kafelek z dniem to mo¿emy dodaæ zdarzenie.
+	szerokoœæ/wysokoœæ kolumn (w³o¿yæ w scroll pane?)
+	kolor wybranej komórki - setSelectionBackground???
+	
+POLECANE:
+	* JAVAFX
+	* SCENE BUILDER
+	
+PRZYDATNE:
+	* SPLITPANE -> Kalendarz | Opcje
+	* JTABLE -> Kontakty, Dni miesi¹ca
+	* TABBEDPANE -> Zak³adki(Kalendarz/KOntakty/Zdarzenia)
+	* COMOBOX -> Filtrowanie, zdarzeñ po "kolorach"?
+	* MENU -> menu + MENUITEM
+	* PROGRESSBAR -> Export (?)
+	* TOOLTIPS -> dymki podpowiedzi ?????
+	* FILECHOOSER -> Export/import 
+	
+System:
+
+MAIN:
+	Glowna pentla programu (?)
+
+Meneger: // klasa ogarniaj¹ca aplikacje (najpewniej rozdrobni sie to na ró¿ne klasy)
+#DONE	Eventy/DodajEvent()/UsunEvent()
+
+	EdytujEvent() <- Dodaj/Usun/Zmien_Alarm()
+	
+	
+	Konwersja: (4)
+		?
+		
+#DONE 	Kasowanie starych zdarzeñ(5)
+	
+	Filtrowanie (5)
+	
+	Bazadanych/ #DONE XML: (6)
+		Zapis()
+		Odczyt()
+	
+Ustawienia: (7)
+	?
+	ON/OFF Dzwieki
+	FullScreen?
+	Po ilu usuwac wydarzenia
+	
+O programie: (8)
+	nazwa
+	wersja
+	autorzy
+	opis
